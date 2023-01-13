@@ -65,15 +65,13 @@ if(isset($_POST['submit']))
     <link href="style.css" rel="stylesheet" />
 </head>
 <body>
-    <div id="title"><h1>Скрывашка</h1></div>
-    <div>
-        <form method="POST">
-            <input name="login" type="text" placeholder='Логин'/>
-            <input name="password" type="password" placeholder='Пароль'/>
-            <input type='submit' name="submit"value='Создать аккаунт'>
-            <a href='login.php'>Есть аккаунт?</a>
-        </form>
-    </div>
+    <form method="POST">
+<input name="login" type="text" placeholder='Логин'/>
+<input name="password" type="password" placeholder='Пароль'/>
+<a href='login.php'>Есть аккаунт?</a>
+<input type='submit' name="submit"value='Создать аккаунт'>
+</form>
+    <a href='index.php'><div id="title"><h1>Скрывашка</h1></a></div>
     <div id="main">
     </div>
 </body>
